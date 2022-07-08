@@ -1,0 +1,30 @@
+{
+  "name": "jrm",
+  "version": "1.0.0",
+  "description": "Aplicação para cadastro de usuarios do projeto final da disciplina de jogos em rede multiusuario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbreno/jrm-registro.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "mongodb"
+  ],
+  "author": "rocktard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fbreno/jrm-registro/issues"
+  },
+  "homepage": "https://github.com/fbreno/jrm-registro#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mariadb": "^3.0.0",
+    "socket.io": "^4.5.1",
+    "ssh2": "^1.11.0"
+  }
+}
